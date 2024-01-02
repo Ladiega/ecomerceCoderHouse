@@ -21,7 +21,7 @@ export default function DetailPage() {
     <main>
       <img src={char.image} alt=" character image" />
       <h1>{char.name}</h1>
-      <h3>{char.gender}</h3>
+      <h2>{char.gender}</h2>
       <p>{char.status }</p>
 
     </main>
